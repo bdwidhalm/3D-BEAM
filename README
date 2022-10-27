@@ -1,4 +1,10 @@
+# 3D Beam Program
 
+## Overview
 This 3DBEAM program is a program written in AutoLISP; it gets compiled and ran inside AutoCAD sort of like a VBA in Excel.  What this program does is lets a user chose a type of structural steel beam to draw an accurate 3 dimensional object.  I wrote it quite a few years ago when I was doing structural steel detailing in order to create 3D models of any work and at the time there wasn't a way to easily create these objects without looking up the information and drawing it out "by hand."  I automated the process to allow the user to select from a drop-down (which could be updated in the future if needed) and then select 3D points to draw the beam to and from.  
 
+## Usage
+Must be imported into AutoCAD and ran, will draw W-shape beams in 3D.  User will select beam size from dialog box, then choose two points(X,Y) and give elevations(Z).  
+
+## History
 I'm proud of this program because it was of the first major programs I created on my own to make work easier, it included a user input dialog box (not easy to create with AutoLISP, they don't use any GUI development tool for their dialogs) and then it calculates and creates the graphical object.  I'm proud of the fact that I tried to think ahead and not hard-code in the beam information so that if new beams were added down the road they could easily be added.  
