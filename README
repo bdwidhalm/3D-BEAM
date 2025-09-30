@@ -8,3 +8,5 @@ Must be imported into AutoCAD and ran, will draw W-shape beams in 3D.  User will
 
 ## History
 I'm proud of this program because it was of the first major programs I created on my own to make work easier, it included a user input dialog box (not easy to create with AutoLISP, they don't use any GUI development tool for their dialogs) and then it calculates and creates the graphical object.  I'm proud of the fact that I tried to think ahead and not hard-code in the beam information so that if new beams were added down the road they could easily be added.  
+
+This was written several years ago (~2005), I do not provide any promises if the code still works in the current version of AutoCAD.  
